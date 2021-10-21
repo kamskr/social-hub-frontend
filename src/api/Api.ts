@@ -1,6 +1,7 @@
+import { SocialAPI } from 'api/ApiTypes';
 import { HttpClient } from './HttpClient';
 
-export class Api implements HeroesAPI {
+export class Api implements SocialAPI {
   client: HttpClient;
 
   constructor() {
