@@ -1,0 +1,1 @@
+export { HeroListLabels } from './HeroListLabels';
