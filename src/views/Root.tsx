@@ -5,19 +5,17 @@ import { QueryParamProvider } from 'use-query-params';
 import { GlobalStyle, theme } from 'theme';
 import { NotFound } from './NotFound';
 
-export const Root = () => {
-  return (
-    <Router>
-      <QueryParamProvider ReactRouterRoute={Route}>
-        <ThemeProvider theme={theme}>
-          <GlobalStyle />
-          <Switch>
-            <Route path="*">
-              <NotFound />
-            </Route>
-          </Switch>
-        </ThemeProvider>
-      </QueryParamProvider>
-    </Router>
-  );
-};
+export const Root = () => (
+  <Router>
+    <QueryParamProvider ReactRouterRoute={Route}>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <Switch>
+          <Route path="*">
+            <NotFound />
+          </Route>
+        </Switch>
+      </ThemeProvider>
+    </QueryParamProvider>
+  </Router>
+);
