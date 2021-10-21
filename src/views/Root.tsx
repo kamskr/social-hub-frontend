@@ -5,8 +5,6 @@ import { QueryParamProvider } from 'use-query-params';
 import { GlobalStyle, theme } from 'theme';
 import { NotFound } from './NotFound';
 
-// eslint-disable-next-line no-console
-console.log('test');
 export const Root = () => (
   <Router>
     <QueryParamProvider ReactRouterRoute={Route}>
