@@ -1,11 +1,15 @@
-import styled from '@xstyled/styled-components';
+import styled, { th } from '@xstyled/styled-components';
 import React from 'react';
 
-const Nav = styled.nav``;
+const Nav = styled.nav`
+  width: 100vw;
+  height: ${th('navbarHeight', 'desktop')};
+  background: red;
+`;
 
 export const Navbar = () => {
   return (
-    <nav>
+    <Nav>
       <ul>
         <li>
           <a href="/">Logo</a>
@@ -20,6 +24,6 @@ export const Navbar = () => {
           <p>Settings</p>
         </li>
       </ul>
-    </nav>
+    </Nav>
   );
 };
