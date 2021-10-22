@@ -1,4 +1,7 @@
+import styled from '@xstyled/styled-components';
 import React from 'react';
+
+const Nav = styled.nav``;
 
 export const Navbar = () => {
   return (

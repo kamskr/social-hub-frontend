@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from '@xstyled/styled-components';
 import { HeroNameContainer, HeroName, HeroType, HeroTypeDesktop, ImageWithName, ListItem, HeroDescription } from './HeroesListItem.styled';
 
 interface HeroesListItemProps {

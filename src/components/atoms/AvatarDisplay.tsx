@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@xstyled/styled-components';
 
 export const AvatarDisplay = styled.img`
   width: 100px;

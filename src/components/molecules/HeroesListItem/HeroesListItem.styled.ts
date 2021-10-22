@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@xstyled/styled-components';
 import { GridContainer } from 'components/atoms/GridContainer';
 
 export const ListItem = styled(GridContainer).attrs({

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@xstyled/styled-components';
 import { motion } from 'framer-motion';
 
 export const Overlay = styled(motion.div)`

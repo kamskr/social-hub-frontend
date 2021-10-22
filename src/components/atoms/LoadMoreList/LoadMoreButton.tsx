@@ -1,7 +1,7 @@
 import React from 'react';
 import { ActivityIndicator } from 'components/atoms/ActivityIndicator';
 import { Button, ButtonVariant } from 'components/atoms/Button';
-import styled from 'styled-components';
+import styled from '@xstyled/styled-components';
 
 interface LoadMoreButtonProps {
   hasMore?: boolean;
