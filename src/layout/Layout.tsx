@@ -1,6 +1,5 @@
 import React, { ReactElement } from 'react';
 import styled from '@xstyled/styled-components';
-import { getTheme } from 'theme/helpers/getTheme';
 import { Navbar } from './Navbar';
 import { Sidebar } from './Sidebar';
 
