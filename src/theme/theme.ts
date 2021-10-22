@@ -1,11 +1,15 @@
 export const theme = {
   colors: {
-    white: '#FFFFFF',
-    background: '#F5F6FB',
-    primary: '#61CE93',
-    secondary: '#6198F3',
-    error: '#EE4A5A',
-    grey: '#999999',
+    primary: '#0070FF',
+    accent1: '#6CC607',
+    accent2: '#AF5DDF',
+    accent3: '#02B8FF',
+    accent4: '#FF94D8',
+    backgrouond: '#FAFAFB',
+    foreground: '#fff',
+    textPrimary: '#000',
+    textSecondary: '#9F9FA9',
+    error: '#FF4D56',
   },
   fontSize: {
     xl: '25px',
