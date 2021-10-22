@@ -2388,6 +2388,35 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@xstyled/core@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@xstyled/core/-/core-3.1.0.tgz#f8a9076053dae66801bd6edd7d78348ff3ae697b"
+  integrity sha512-OCdXZgpHEJPa85kpbJfPvsiU7JPuF/8aFM0TDpckJukn3XLmZKBxo1fJ9noibG368ttXfdL7xEmCIMCFVDN2jA==
+  dependencies:
+    "@xstyled/system" "^3.1.0"
+
+"@xstyled/styled-components@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@xstyled/styled-components/-/styled-components-3.1.0.tgz#053d6841d8730cd608ed2edb54a5bf128e02ad45"
+  integrity sha512-T1YyvMq2RBMVX25wsZeXLT0YeUdS9UDIVKo+oOxfTlJNLRNTpiBe54pIGdNxSKRKs6hCE2UPclFk1bgFdkwIrw==
+  dependencies:
+    "@xstyled/core" "^3.1.0"
+    "@xstyled/system" "^3.1.0"
+    "@xstyled/util" "^3.1.0"
+
+"@xstyled/system@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@xstyled/system/-/system-3.1.0.tgz#b59d99417230d8026dde01946e25018d29414f61"
+  integrity sha512-vH46ikDm0PqLhPprneXdQEl53UWUMMye14yrcSgRaOcroisiZE4cFtDnFJmQ8cRAjxhmt2imrmw47SbWQ9pOXA==
+  dependencies:
+    "@xstyled/util" "^3.1.0"
+    csstype "^3.0.8"
+
+"@xstyled/util@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@xstyled/util/-/util-3.1.0.tgz#0e1b4523cd52dffe0b25276f625fb13e066f27a3"
+  integrity sha512-Ch6fAj866qNQliTK7RYoV0BvWcN+4k+A2eF4J7MBLHS4aM1kqkmH85LKPFTceX67Tdw6elhg/J0TuiMJLHYhKQ==
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -4252,6 +4281,11 @@ csstype@^3.0.2:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
+
+csstype@^3.0.8:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.9.tgz#6410af31b26bd0520933d02cbc64fce9ce3fbf0b"
+  integrity sha512-rpw6JPxK6Rfg1zLOYCSwle2GFOOsnjmDYDaBwEcwoOg4qlsIVCN789VkBZDJAGi4T07gI4YSutR43t9Zz4Lzuw==
 
 cyclist@^1.0.1:
   version "1.0.1"
