@@ -9,11 +9,11 @@ export const theme: Theme = {
     accent4: '#FF94D8',
     background: '#FAFAFB',
     foreground: '#fff',
-    textPrimary: '#000',
+    textPrimary: '#3A3A4A',
     textSecondary: '#9F9FA9',
     error: '#FF4D56',
   },
-  fontSize: {
+  fontSizes: {
     h1: '96px',
     h2: '60px',
     h3: '48px',
@@ -37,7 +37,7 @@ export const theme: Theme = {
     tablet: '760px',
     desktop: '1084px',
   },
-  borderRadius: {
+  radius: {
     regular: '7px',
   },
   spacing: {
@@ -47,9 +47,4 @@ export const theme: Theme = {
     l: '45px',
     xl: '45px',
   },
-  navbarHeight: {
-    mobile: '45px',
-    desktop: '70px',
-  },
-  sidebarWidth: '300px',
 };

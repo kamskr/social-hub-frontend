@@ -1,29 +1,24 @@
-import styled, { th } from '@xstyled/styled-components';
 import React from 'react';
-
-const Nav = styled.nav`
-  width: 100vw;
-  height: ${th('navbarHeight', 'desktop')};
-  background: red;
-`;
+import { Logo } from 'components/atoms/Logo';
+import { Nav, NavbarItems, NavbarItem } from './Navbar.styled';
 
 export const Navbar = () => {
   return (
     <Nav>
-      <ul>
+      <NavbarItems>
+        <NavbarItem>
+          <Logo withBrandName />
+        </NavbarItem>
+        <NavbarItem>
+          <span>Search</span>
+        </NavbarItem>
         <li>
-          <a href="/">Logo</a>
+          <span>Notifications</span>
         </li>
         <li>
-          <p>Search</p>
+          <span>Settings</span>
         </li>
-        <li>
-          <p>Notifications</p>
-        </li>
-        <li>
-          <p>Settings</p>
-        </li>
-      </ul>
+      </NavbarItems>
     </Nav>
   );
 };

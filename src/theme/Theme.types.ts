@@ -11,7 +11,7 @@ export interface Theme {
     textSecondary: string;
     error: string;
   };
-  fontSize: {
+  fontSizes: {
     h1: string;
     h2: string;
     h3: string;
@@ -35,7 +35,7 @@ export interface Theme {
     tablet: string;
     desktop: string;
   };
-  borderRadius: {
+  radius: {
     regular: string;
   };
   spacing: {
@@ -45,9 +45,4 @@ export interface Theme {
     l: string;
     xl: string;
   };
-  navbarHeight: {
-    mobile: string;
-    desktop: string;
-  };
-  sidebarWidth: string;
 }
